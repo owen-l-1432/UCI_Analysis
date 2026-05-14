@@ -1,0 +1,3 @@
+\copy (SELECT CustomerID, count(DISTINCT InvoiceNo) FROM Online_Retail WHERE CustomerID IS NOT NULL AND InvoiceNo NOT LIKE 'C%' AND InvoiceNo NOT LIKE 'A%' AND UnitPrice * Quantity >0.0 GROUP BY CustomerID ORDER BY count(DISTINCT InvoiceNo) DESC LIMIT 10) TO 'top_10_customers_revenue.csv' WITH CSV HEADER;
+
+\copy (SELECT  extract(year from InvoiceDate) as Year, extract(month from InvoiceDate) as Month, sum(Quantity * UnitPrice) as Revenue FROM Online_Retail  WHERE InvoiceNo NOT LIKE 'C%' AND InvoiceNo NOT LIKE 'A%' AND UnitPrice * Quantity >0.0 GROUP BY  extract(year from InvoiceDate), extract(month from Invoicedate) ORDER BY extract(year from InvoiceDate), extract(month from Invoicedate)) TO 'Monthly_Revenue.csv' WITH CSV HEADER;
