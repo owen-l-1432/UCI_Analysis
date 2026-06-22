@@ -1,8 +1,4 @@
 # Online Retail SQL Analysis
-## Dashboard
-[View the interactice dashboard on Tableau Public](https://public.tableau.com/app/profile/owen.ling/viz/UCIOnlineRetailerAnalysisDashboard/OnlineRetalierAnalysisDashboard)
-![Dashboard Preview]([Online Retalier Analysis Dashboard.pdf](https://github.com/user-attachments/files/29224621/Online.Retalier.Analysis.Dashboard.pdf)
-)
 ## Project Overview
 
 This project analyzes transaction-level retail sales data using PostgreSQL. The goal is to answer business questions related to revenue trends, product performance, customer behavior, order value distribution, and cancellations.
@@ -79,7 +75,7 @@ This project answers the following questions:
 - Cancelled orders account for **8.42%** of total valid revenue.
 - A total of **132** product have order cancellation rate higher than **10%**, which could indicate inaccurate description and/or product quality issues.
 - The valid order have an average order value of **£533.88**, with the following quantiles: Minimum: **£0.38**, **10%**: **£69.35**, **25%**: **£152.49**, **50%**: **£303.83**, **75%**: **£495.50**, **90%**: **£940.70**, Maximum: **£168469.60**, we see that the order value distribution is right-skewed.
-- [View the PDF report](report_sql.pdf)
+- [View the interactice dashboard on Tableau Public](https://public.tableau.com/app/profile/owen.ling/viz/UCIOnlineRetailerAnalysisDashboard/OnlineRetalierAnalysisDashboard)
 
 
 ## Recommendations
