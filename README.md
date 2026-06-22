@@ -76,6 +76,8 @@ This project answers the following questions:
 - A total of **132** product have order cancellation rate higher than **10%**, which could indicate inaccurate description and/or product quality issues.
 - The valid order have an average order value of **£533.88**, with the following quantiles: Minimum: **£0.38**, **10%**: **£69.35**, **25%**: **£152.49**, **50%**: **£303.83**, **75%**: **£495.50**, **90%**: **£940.70**, Maximum: **£168469.60**, we see that the order value distribution is right-skewed.
 - [View the interactice dashboard on Tableau Public](https://public.tableau.com/app/profile/owen.ling/viz/UCIOnlineRetailerAnalysisDashboard/OnlineRetalierAnalysisDashboard)
+Here is a Preview: [Online Retalier Analysis Dashboard.pdf](https://github.com/user-attachments/files/29224701/Online.Retalier.Analysis.Dashboard.pdf)
+
 
 
 ## Recommendations
