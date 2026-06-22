@@ -1,5 +1,8 @@
 # Online Retail SQL Analysis
-
+## Dashboard
+[View the interactice dashboard on Tableau Public](https://public.tableau.com/app/profile/owen.ling/viz/UCIOnlineRetailerAnalysisDashboard/OnlineRetalierAnalysisDashboard)
+![Dashboard Preview]([Online Retalier Analysis Dashboard.pdf](https://github.com/user-attachments/files/29224621/Online.Retalier.Analysis.Dashboard.pdf)
+)
 ## Project Overview
 
 This project analyzes transaction-level retail sales data using PostgreSQL. The goal is to answer business questions related to revenue trends, product performance, customer behavior, order value distribution, and cancellations.
